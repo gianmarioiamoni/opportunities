@@ -1,6 +1,6 @@
 # Opportunities Application
 
-The purpose of this project is to provide a straightforward, user-friendy and direct tool to manage commercial opportunities and client database for Sales Managers.
+The purpose of this project is to provide a straightforward, user-friendly, and direct tool to manage commercial opportunities and client databases for Sales Managers.
 
 ## Main Technologies
 The following is a summary of the main technologies used in the project:
@@ -8,7 +8,7 @@ The following is a summary of the main technologies used in the project:
 - Express.js
 - Node.js
 - React
-- Primereact
+- PrimeReact
 - MySQL
 - Google Maps APIs
 
@@ -19,23 +19,22 @@ The functionalities of the solution are described in the following sections, wit
 
 ![01 - main window](https://github.com/gianmarioiamoni/opportunities/assets/113024091/bf95ee7c-c0c4-42ad-9de8-330468a363ce)
 
-This section allows full CRUD operations on opportunities, including advanced searching, filtering and ordering capabilities.
-It provides fast links to clients and companies information.
+This section allows full CRUD operations on opportunities, including advanced searching, filtering, and ordering capabilities. It provides quick links to clients' and companies' information.
 
-#### Expanding rows
-Opportunities details can be easily checked by using expanding rows capabilities provided by the opportunities table.
+#### Expanding Rows
+Opportunity details can be easily checked using the expanding rows capabilities provided by the opportunities table.
 
 ![02 - expanded rows](https://github.com/gianmarioiamoni/opportunities/assets/113024091/fc53acfa-bc28-4153-8982-7fb2e543d511)
 
 
-#### Inline fast editing
-The user can quickly update the main opportunities information by using inline editing capabilities
+#### Inline Fast Editing
+The user can quickly update the main opportunities information using inline editing capabilities,
 
 ![03 - inline fast editing](https://github.com/gianmarioiamoni/opportunities/assets/113024091/18ed3067-8f54-480e-8993-7d7e5dc69805)
 
 
-#### CRUD operations 
-The user can create new opportunities, view and edit the whole information of and existing opportunity and delete an opportunities from the database.
+#### CRUD Operations 
+The user can create new opportunities, view and edit the complete information of an existing opportunity, and delete opportunities from the database.
 
 ![04 - create new opportunity](https://github.com/gianmarioiamoni/opportunities/assets/113024091/a23e2eee-d65e-4b95-9eaa-f603eee56da2)
 
@@ -44,8 +43,8 @@ The user can create new opportunities, view and edit the whole information of an
 ![06 - edit full opportunity details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/b4acc430-0b64-4834-8102-a5d40b97eede)
 
 
-#### Advanced searching and filtering functionalities
-Opportunities can easily searched, filtered and ordered by the user 
+#### Advanced Searching and Filtering Functionalities
+Opportunities can be easily searched, filtered, and ordered by the user.
 
 ![07 - fast opportunities search](https://github.com/gianmarioiamoni/opportunities/assets/113024091/182ba89b-58e7-4dae-aa36-32437aeffdc7)
 
@@ -54,8 +53,8 @@ Opportunities can easily searched, filtered and ordered by the user
 ![08a - advanced filtering results](https://github.com/gianmarioiamoni/opportunities/assets/113024091/2fac2cde-0694-4a54-a600-b32a5dcb2da0)
 
 
-#### Opportunities report download
-The user can download reports regarding current opportunities situation in Excel, PDF, CSV formats
+#### Opportunities Report Download
+The user can download reports regarding the current opportunities situation in Excel, PDF, and CSV formats.
 
 ![13 - opportunities report download](https://github.com/gianmarioiamoni/opportunities/assets/113024091/18fd2e07-e418-43d9-8945-157fcf726b7b)
 
@@ -64,20 +63,20 @@ The user can download reports regarding current opportunities situation in Excel
 ![13b - excel opportunities report download](https://github.com/gianmarioiamoni/opportunities/assets/113024091/1156f226-410d-44ca-8766-3271aa66368e)
 
 
-#### Fast link to companies information
-From the opportunities page the user can quickly access the customer's company information
+#### Quick Link to Company Information
+From the opportunities page, the user can quickly access the customer's company information.
 
 ![09 - fast link to companies details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/bfac30be-a085-4f02-b612-e075bb0dc84c)
 
 
-### Company and client database
-This section provides a comprehensive set of functionalities to manage companies and customers information.
+#### Company and Client Database
+This section provides a comprehensive set of functionalities to manage companies' and customers' information.
 
 ![14 - client database](https://github.com/gianmarioiamoni/opportunities/assets/113024091/b150f3f8-12b1-48cc-ac82-ddfca9286e7a)
 
 
-#### Company details
-All information related to a company are available in a conveniend sidebar window, including editing options and advanced street addresses management based on Google Maps APIs with navigation capabilities.
+#### Company Details
+All information related to a company is available in a convenient sidebar window, including editing options and advanced street address management based on Google Maps APIs with navigation capabilities.
 
 ![10 - company details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/da6f4d3f-16c1-4f1d-b05c-5eb8352abf30)
 
@@ -92,8 +91,8 @@ All information related to a company are available in a conveniend sidebar windo
 ![12 - quick navigation on Google Maps](https://github.com/gianmarioiamoni/opportunities/assets/113024091/78d4c147-05ed-4799-bb0a-4e9c184644bf)
 
 
-#### Client details
-In a similar way as for companies, also clients information are easily accessible by using a dedicated sidebar window. This allows also editing of the client information and quick access to communication utilities, relying on provided client contacts information.
+#### Client Details
+In a similar way to companies, clients' information is easily accessible using a dedicated sidebar window. This also allows editing of the client's information and quick access to communication utilities, relying on provided client contact information.
 
 ![15 - client details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/44c87c84-5add-436b-ab64-68a3119dc41f)
 
@@ -104,8 +103,8 @@ In a similar way as for companies, also clients information are easily accessibl
 ![14b - client fast call link](https://github.com/gianmarioiamoni/opportunities/assets/113024091/7dcc807e-3bf3-41ad-b12d-63995d090105)
 
 
-#### Clients and Companies quick search and adding
-Client database can be searched and new clients and new companies can be added in a straightforward way
+#### Clients and Companies Quick Search and Adding
+The client database can be searched, and new clients and companies can be added straightforwardly.
 
 ![17 - client quick search](https://github.com/gianmarioiamoni/opportunities/assets/113024091/2b000a15-b704-401a-a0fc-e665eb0be19c)
 
@@ -114,8 +113,8 @@ Client database can be searched and new clients and new companies can be added i
 ![20 - add a new company](https://github.com/gianmarioiamoni/opportunities/assets/113024091/ece4ab44-3414-413a-8984-9ffa801a2a6f)
 
 
-#### Download Clients and companies reports
-Detailed reports about companies and clients can be easily downloaded in Excel, PDF and CVS formats.
+#### Download Clients and Companies Reports
+Detailed reports about companies and clients can be easily downloaded in Excel, PDF, and CSV formats.
 
 ![19 - download client database report](https://github.com/gianmarioiamoni/opportunities/assets/113024091/4eb4d56b-0dbb-49b2-a847-c849879e0a60)
 
@@ -126,8 +125,8 @@ Detailed reports about companies and clients can be easily downloaded in Excel, 
 ![22 - excel company report example](https://github.com/gianmarioiamoni/opportunities/assets/113024091/6767009f-1204-44a1-bf57-fac9b6d93d66)
 
 
-### Reports and Statistics
-Report and statistics about opportunities are available to the user in a graphical format.
+#### Reports and Statistics
+Reports and statistics about opportunities are available to the user in a graphical format.
 
 ![23 - opportunities reports and statistics](https://github.com/gianmarioiamoni/opportunities/assets/113024091/22bcafc2-2430-44ae-8e91-62e121a5eb70)
 
