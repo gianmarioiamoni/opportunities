@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+# Opportunities Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of this project is to provide a straightforward, user-friendy and direct tool to manage commercial opportunities and client database for Sales Managers.
 
-## Available Scripts
+## Main Technologies
+The following is a summary of the main technologies used in the project:
+- Javascript
+- Express.js
+- Node.js
+- React
+- Primereact
+- MySQL
+- Google Maps APIs
 
-In the project directory, you can run:
+## Features
+The functionalities of the solution are described in the following sections, with some example screenshots.
 
-### `npm start`
+### Opportunities Management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![01 - main window](https://github.com/gianmarioiamoni/opportunities/assets/113024091/bf95ee7c-c0c4-42ad-9de8-330468a363ce)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This section allows full CRUD operations on opportunities, including advanced searching, filtering and ordering capabilities.
+It provides fast links to clients and companies information.
 
-### `npm test`
+#### Expanding rows
+Opportunities details can be easily checked by using expanding rows capabilities provided by the opportunities table.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![02 - expanded rows](https://github.com/gianmarioiamoni/opportunities/assets/113024091/fc53acfa-bc28-4153-8982-7fb2e543d511)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Inline fast editing
+The user can quickly update the main opportunities information by using inline editing capabilities
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![03 - inline fast editing](https://github.com/gianmarioiamoni/opportunities/assets/113024091/18ed3067-8f54-480e-8993-7d7e5dc69805)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### CRUD operations 
+The user can create new opportunities, view and edit the whole information of and existing opportunity and delete an opportunities from the database.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![04 - create new opportunity](https://github.com/gianmarioiamoni/opportunities/assets/113024091/a23e2eee-d65e-4b95-9eaa-f603eee56da2)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![05 - view opportunity details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/13076181-a3a1-44a4-b115-b7b8f054e33f)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![06 - edit full opportunity details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/b4acc430-0b64-4834-8102-a5d40b97eede)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#### Advanced searching and filtering functionalities
+Opportunities can easily searched, filtered and ordered by the user 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![07 - fast opportunities search](https://github.com/gianmarioiamoni/opportunities/assets/113024091/182ba89b-58e7-4dae-aa36-32437aeffdc7)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![08 - advanced filtering for each field](https://github.com/gianmarioiamoni/opportunities/assets/113024091/808dfcbd-8500-46e4-98ef-7f5d5aad968d)
 
-### Code Splitting
+![08a - advanced filtering results](https://github.com/gianmarioiamoni/opportunities/assets/113024091/2fac2cde-0694-4a54-a600-b32a5dcb2da0)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#### Opportunities report download
+The user can download reports regarding current opportunities situation in Excel, PDF, CSV formats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![13 - opportunities report download](https://github.com/gianmarioiamoni/opportunities/assets/113024091/18fd2e07-e418-43d9-8945-157fcf726b7b)
 
-### Making a Progressive Web App
+![13a - opportunities report download](https://github.com/gianmarioiamoni/opportunities/assets/113024091/65c67499-1e2d-41cc-9588-7d142ee4334d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![13b - excel opportunities report download](https://github.com/gianmarioiamoni/opportunities/assets/113024091/1156f226-410d-44ca-8766-3271aa66368e)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Fast link to companies information
+From the opportunities page the user can quickly access the customer's company information
 
-### Deployment
+![09 - fast link to companies details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/bfac30be-a085-4f02-b612-e075bb0dc84c)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### Company and client database
+This section provides a comprehensive set of functionalities to manage companies and customers information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![14 - client database](https://github.com/gianmarioiamoni/opportunities/assets/113024091/b150f3f8-12b1-48cc-ac82-ddfca9286e7a)
+
+
+#### Company details
+All information related to a company are available in a conveniend sidebar window, including editing options and advanced street addresses management based on Google Maps APIs with navigation capabilities.
+
+![10 - company details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/da6f4d3f-16c1-4f1d-b05c-5eb8352abf30)
+
+![11 - company details editing](https://github.com/gianmarioiamoni/opportunities/assets/113024091/f86fa0d6-af4e-4351-a937-10540e479329)
+
+![11a - company addresses quick search and adding](https://github.com/gianmarioiamoni/opportunities/assets/113024091/38460deb-6c6f-4e7b-92a2-a6846898b14c)
+
+![11b - company address adding result](https://github.com/gianmarioiamoni/opportunities/assets/113024091/122e26d1-d379-4739-95e6-b298b2822264)
+
+![11c - company address adding result maps](https://github.com/gianmarioiamoni/opportunities/assets/113024091/688bc292-f43d-4117-b682-facd0289e34a)
+
+![12 - quick navigation on Google Maps](https://github.com/gianmarioiamoni/opportunities/assets/113024091/78d4c147-05ed-4799-bb0a-4e9c184644bf)
+
+
+#### Client details
+In a similar way as for companies, also clients information are easily accessible by using a dedicated sidebar window. This allows also editing of the client information and quick access to communication utilities, relying on provided client contacts information.
+
+![15 - client details](https://github.com/gianmarioiamoni/opportunities/assets/113024091/44c87c84-5add-436b-ab64-68a3119dc41f)
+
+![16 - client details editing](https://github.com/gianmarioiamoni/opportunities/assets/113024091/97a0054d-bf83-436a-b1d9-7e98621700a7)
+
+![14a - client fast email link](https://github.com/gianmarioiamoni/opportunities/assets/113024091/05fbb685-0010-41a1-a91d-f3285103ec83)
+
+![14b - client fast call link](https://github.com/gianmarioiamoni/opportunities/assets/113024091/7dcc807e-3bf3-41ad-b12d-63995d090105)
+
+
+#### Clients and Companies quick search and adding
+Client database can be searched and new clients and new companies can be added in a straightforward way
+
+![17 - client quick search](https://github.com/gianmarioiamoni/opportunities/assets/113024091/2b000a15-b704-401a-a0fc-e665eb0be19c)
+
+![18 - adding a new client](https://github.com/gianmarioiamoni/opportunities/assets/113024091/d9579607-d5b9-4846-b09e-55fa0d7ecf40)
+
+![20 - add a new company](https://github.com/gianmarioiamoni/opportunities/assets/113024091/ece4ab44-3414-413a-8984-9ffa801a2a6f)
+
+
+#### Download Clients and companies reports
+Detailed reports about companies and clients can be easily downloaded in Excel, PDF and CVS formats.
+
+![19 - download client database report](https://github.com/gianmarioiamoni/opportunities/assets/113024091/4eb4d56b-0dbb-49b2-a847-c849879e0a60)
+
+![19a - client database PDF report](https://github.com/gianmarioiamoni/opportunities/assets/113024091/4d039877-395c-4e52-aac4-9f1a22297cb0)
+
+![21 - download company reports](https://github.com/gianmarioiamoni/opportunities/assets/113024091/fa94a336-7f16-4ae6-bfee-cbc3beed7d17)
+
+![22 - excel company report example](https://github.com/gianmarioiamoni/opportunities/assets/113024091/6767009f-1204-44a1-bf57-fac9b6d93d66)
+
+
+### Reports and Statistics
+Report and statistics about opportunities are available to the user in a graphical format.
+
+![23 - opportunities reports and statistics](https://github.com/gianmarioiamoni/opportunities/assets/113024091/22bcafc2-2430-44ae-8e91-62e121a5eb70)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
